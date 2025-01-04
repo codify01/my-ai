@@ -49,8 +49,8 @@ const App: React.FC = () => {
 	};
 
 	return (
-		<div className="min-h-screen bg-slate-100 flex flex-col items-center px-6 overflow-hidden">
-			<div className="bg-slate-500 text-white p-5 w-full flex justify-center items-center fixed top-0">
+		<div className="min-h-screen bg-slate-100 flex flex-col items-center px-6 overflow-hidden max-w-md mx-auto">
+			<div className="bg-slate-500 text-white p-5 w-full flex justify-center items-center fixed top-0 max-w-md mx-auto">
 				<h1 className="text-lg font-semibold">Codify AI</h1>
 			</div>
 			<div className="h-[96vh] w-full flex justify-center items-center">
@@ -90,7 +90,7 @@ const App: React.FC = () => {
 					</div>
 				</div>
 			</div>
-			<div className="p-4 flex items-center fixed bottom-3 w-[90%] bg-white rounded-xl shadow-md">
+			<div className="p-4 flex items-center fixed bottom-3 w-[90%] bg-white rounded-xl shadow-md max-w-md mx-auto">
 				<textarea
 					className="flex-grow p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500"
 					value={input}
