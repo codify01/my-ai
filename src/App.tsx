@@ -55,7 +55,7 @@ const App: React.FC = () => {
 			</div>
 			<div className="h-[96vh] w-full flex justify-center items-center">
 				<div className="w-full flex flex-col h-[80vh] pb-3">
-					<div className="flex-grow p-4 overflow-y-auto">
+					<div className="flex-grow py-4 overflow-y-auto">
 						{messages.map((message, index) => (
 							<div
 								key={index}
@@ -83,7 +83,7 @@ const App: React.FC = () => {
 						{loading && (
 							<div className="mb-4 flex justify-start">
 								<div className="max-w-[75%] p-3 rounded-lg bg-gray-200 text-gray-800">
-									<p>Typing...</p>
+									<p className='italic font-medium text-slate-800'>Typing...</p>
 								</div>
 							</div>
 						)}
