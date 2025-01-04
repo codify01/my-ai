@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-const api = import.meta.env.API_URL ?? 'https://safenet-vz39.onrender.co'
+const api = import.meta.env.API_URL ?? 'https://safenet-vz39.onrender.com'
 
 interface ApiResponse {
 	product: { response: string; message: string };
